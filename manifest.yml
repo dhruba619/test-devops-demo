@@ -1,0 +1,8 @@
+applications:
+- name: devops-test-demo
+  host: dhruba619
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: ./target/test-demo.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
